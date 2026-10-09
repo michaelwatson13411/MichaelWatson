@@ -118,4 +118,19 @@ footer{color: var(--accent); text-align:center}
 
 
 
-.connect-section {text-align: center; margin-top: 40px;}
+.contact-section {max-width: 650px; margin: 60px auto; padding: 20px; text-align: center;}
+
+.contact-section h2 {margin-bottom: 15px;}
+
+.contact-section p {margin-bottom: 35px;}
+
+
+.contact-form {display: flex;flex-direction: column;gap: 15px;text-align: left; font-family: "art-nuvo", serif;}
+
+.contact-form label {font-weight: bold;font-family: 'art-nuvo', serif;}
+
+.contact-form input,.contact-form textarea {padding: 12px;border: 1px solid #ccc;border-radius: 5px;font: inherit;width: 100%;font-family: 'georgia', serif;}
+
+.contact-form button {display: flex;justify-content: center; padding: 15px;background-color: var(--primary);color: var(--text);border: none;border-radius: 5px;cursor: pointer;font-family: 'art-nuvo', serif;transform: translateX(14px);}
+
+.contact-form button:hover {background-color: var(--secondary);}
